@@ -1,0 +1,8 @@
+#viona adalah seorang guru yang akan mengajarkan bilangan ganjil genap kepada muridnya.bantulah viona membuat programnya.
+
+bilangan=int(input("masukkan bilangan: "))
+for i in range(1):
+   if bilangan%2==1:
+      print("bilangan termasuk ganjil")
+   else:
+      print("bilangan termasuk genap")
